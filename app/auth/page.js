@@ -27,7 +27,7 @@ export default function AuthPage() {
           window.location.href = '/chat';
           return;
         }
-        setMessage('注册成功，但当前项目仍要求邮箱确认。请回 Supabase 关闭 Confirm email。');
+        setMessage('注册成功，要求邮箱确认。');
       } else {
         const { error } = await supabase.auth.signInWithPassword({
           email,
