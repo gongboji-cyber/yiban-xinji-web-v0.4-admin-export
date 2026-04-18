@@ -41,7 +41,7 @@ export default function HomePage() {
           </ol>
           <div className="reality-check">
             <h3>Reality Check</h3>
-            <p>先把可落地的登录、聊天、留痕、导出跑通，再谈更复杂的自动预警闭环。</p>
+            <p>把可落地的登录、聊天、留痕、导出跑通。</p>
           </div>
         </div>
       </section>
@@ -68,7 +68,7 @@ export default function HomePage() {
 
       <section className="section-block compact-links">
         <div className="glass-card inline-links">
-          <Link href="/auth" className="ghost-btn">先去注册登录</Link>
+          <Link href="/auth" className="ghost-btn">先注册登录</Link>
           <Link href="/history" className="ghost-btn">查看历史记录</Link>
           <Link href="/admin/alerts" className="ghost-btn">导出后台 Excel</Link>
         </div>
